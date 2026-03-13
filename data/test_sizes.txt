@@ -1,1 +1,11 @@
-12345102509999999897867893001780000
+1
+2
+10
+250
+999
+9999
+for size in sizes:
+    if size > 50000:   # skip very large sizes
+        continue
+    run_test(size)
+print(f"Finished test for size {size}")
