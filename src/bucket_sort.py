@@ -5,7 +5,7 @@ def bucket_sort(arr):
     if len(arr) == 0:
         return arr
 
-    bucket_count = 10
+    bucket_count = 1000
 
     max_val = max(arr)
     min_val = min(arr)

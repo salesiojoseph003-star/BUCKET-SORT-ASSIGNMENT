@@ -5,7 +5,7 @@ from data.dataset_generator import generate_dataset
 from src.bucket_sort import bucket_sort
 import src.insertion_sort as counter
 
-sizes = [1,2,3,4,5,10,250,999,9999,89786,789300,1780000]
+sizes = [1,2,3,4,5,10,250,999,9999,50000]
 
 def run_experiments():
 
