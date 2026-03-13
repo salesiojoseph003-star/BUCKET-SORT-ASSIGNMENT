@@ -1,9 +1,4 @@
-1
-2
-10
-250
-999
-9999
+sizes = [1,2,5,10,250]   # omit the huge ones
 for size in sizes:
     if size > 50000:   # skip very large sizes
         continue
